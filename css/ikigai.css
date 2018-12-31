@@ -1,0 +1,1416 @@
+a.none-decoration:hover {
+    text-decoration: none !important;
+}
+
+.text-large {
+    font-size: 1.1rem;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+.topmin6 {
+    margin-top: -10px;
+}
+
+p {
+    font-size: 0.875rem;
+    line-height: 1.75;
+    color: #616161;
+}
+
+a {
+    color: #fed136;
+}
+
+a:hover {
+    color: ;
+}
+
+.text-primary {
+    color: #fed136 !important;
+}
+
+.container {
+    position: relative;
+}
+
+ul,
+li {}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: #616161;
+}
+
+section {
+    padding: 69px 0;
+}
+
+section.detail-page {
+    padding: 50px 0px;
+}
+
+section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+}
+
+.btn {
+    font-weight: 700;
+}
+
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+.btn-primary {
+    background-color: #fed136;
+    border-color: #fed136;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #fec810 !important;
+    border-color: #fec810 !important;
+    color: white;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+ ::-moz-selection {
+    background: #fed136;
+    text-shadow: none;
+}
+
+ ::selection {
+    background: #fed136;
+    text-shadow: none;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+
+/* helper */
+
+a.ik-link-normal {
+    color: #3B3B3B;
+}
+
+a.ik-link-normal:hover {
+    color: #FA7B46;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-grey {
+    color: #616161;
+}
+
+.text-blue {
+    color: #2997EF!important;
+}
+
+.text-normal {
+    font-weight: normal;
+}
+
+.rounded-25 {
+    border-radius: 25px;
+}
+
+.bg-orange {
+    background-color: #FA7B46;
+}
+
+.btn-orange {
+    background-color: #FA7B46;
+    color: #fff;
+}
+
+.btn-blue-grad {
+    background: #8E2DE2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4A00E0, #8E2DE2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4A00E0, #8E2DE2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    transition: linear-gradient 0.5s;
+    border: none!important;
+    height: 48px;
+}
+
+.btn-blue-grad:hover {
+    background: #F2994A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F2C94C, #F2994A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F2C94C, #F2994A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.ik-card .card-header {
+    background: none;
+    text-align: center;
+    border-bottom: none;
+    padding-top: 32px;
+}
+
+
+/*end of helper*/
+
+#mainNav {
+    background-color: #fff;
+}
+
+#mainNav .navbar-toggler {}
+
+#mainNav .navbar-brand {
+    color: #fed136;
+}
+
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+    color: #FA7B46;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-weight: 700;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: #616161;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #FA7B46;
+}
+
+
+/* dropdown hover */
+
+.navbar-nav li:hover {
+    cursor: pointer;
+}
+
+.navbar-nav li:hover>ul.dropdown-menu {
+    display: block;
+}
+
+ul.dropdown-menu li:hover {
+    background-color: none;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+}
+
+
+/* rotate caret on hover */
+
+.dropdown-menu>li>a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+}
+
+.nav-link.separator {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.ik-login-btn {
+    margin-left: 50px;
+    background-color: #FA7B46;
+    border-radius: 25px;
+    padding: 0px 10px;
+}
+
+.ik-login-btn li a.nav-link {
+    padding: 0.5em 1em;
+}
+
+#mainNav .navbar-nav.ik-login-btn .nav-item .nav-link {
+    color: #fff;
+}
+
+
+/* header */
+
+section {
+    background: ;
+}
+
+section.header {
+    margin-top: 75px;
+}
+
+.intro-text-wrap {
+    position: relative;
+    margin-top: calc(50vh - 285px);
+}
+
+.header h1 {
+    font-family: 'Patua One', cursive;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.ik-illustration-1 {
+    position: absolute;
+    right: -400px;
+    top: -220px;
+}
+
+
+/* end of header */
+
+
+/* step */
+
+section.step {
+    padding: 250px 0px 150px 0px;
+}
+
+.step .card .card-header {
+    background: none;
+    text-align: center;
+    border-bottom: none;
+    padding-top: 32px;
+}
+
+.step .card .card-body {
+    width: 550px;
+    padding: 0px;
+    margin: 24px auto;
+    padding-left: 10px;
+}
+
+.step .card .card-body .row.first {
+    position: relative;
+    left: -100px;
+}
+
+.step .card .card-body .row.third {
+    position: relative;
+    right: -100px;
+}
+
+
+/* end of step */
+
+
+/* test */
+
+.test {
+    background: #5829A8;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5829A8, #AC6ACE);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5829A8, #AC6ACE);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section.test {
+    padding: 140px 0;
+    width: 100%;
+    position: relative;
+}
+
+.ik-step-1 {
+    position: absolute;
+    bottom: 0;
+    z-index: 20;
+}
+
+.ik-step-3 {
+    position: absolute;
+    z-index: 10;
+    bottom: -250px;
+    left: 0;
+}
+
+.ik-step-4 {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    z-index: 10;
+}
+
+.ik-step-4 .inside {
+    position: relative;
+    left: -50%;
+}
+
+.ik-step-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.test .card {
+    background-color: #541C94;
+    position: relative;
+    z-index: 20;
+}
+
+.test .card .card-body,
+.test .card .card-body h4 {
+    color: #fff;
+}
+
+.btn-test {
+    background-color: #FB3B68;
+    border: none;
+}
+
+.btn-test:hover {
+    background-color: #FF547C;
+}
+
+
+/* end of test */
+
+
+/* univ platform*/
+
+ul.list-univ {
+    margin-top: 50px;
+    padding-left: 0px;
+}
+
+ul.list-univ li {
+    display: inline;
+    margin-left: 25px;
+    line-height: 100px;
+}
+
+ul.list-univ li:first-child {
+    margin-left: 0px!important;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+
+/* end of univ platform*/
+
+
+/* testimoni */
+
+section.testimoni {
+    padding: 80px 0px;
+    background-image: url(../img/illlustration_3.png);
+    background-size: cover;
+    color: #fff;
+}
+
+section.testimoni h5 {
+    color: #fff;
+}
+
+
+/* end of testimoni */
+
+
+/* news */
+
+section.news .card {
+    margin: 0px 30px;
+    border-radius: 12px;
+}
+
+section.news .card img {
+    border-radius: 12px;
+}
+
+section.news .card .text-grey {
+    color: #BCBCBC;
+}
+
+section.news .card a {
+    color: #05A8F3;
+}
+
+#news-slider10 .owl-prev {
+    color: transparent;
+    position: absolute;
+    left: -10px;
+    top: 160px;
+    width: 32px;
+    height: 32px;
+    opacity: 1!important;
+    background: url(../img/btn-left.png) no-repeat transparent left!important;
+}
+
+#news-slider10 .owl-next {
+    color: transparent;
+    position: absolute;
+    right: -10px;
+    top: 160px;
+    width: 32px;
+    height: 32px;
+    opacity: 1!important;
+    background: url(../img/btn-right.png) no-repeat transparent left!important;
+}
+
+
+/* end of news */
+
+section.partner {
+    padding-bottom: 220px;
+}
+
+
+/* footer */
+
+section.footer {
+    padding: 80px 0px 40px 0px;
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+}
+
+section.footer ul li {
+    list-style: none;
+    margin-bottom: 6px;
+}
+
+section.footer ul li a {
+    color: #fff;
+}
+
+
+/* end of footer */
+
+
+/* header */
+
+header.masthead {
+    text-align: center;
+    color: white;
+    background-image: url("../img/parents_page.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.masthead.parents {
+    background-image: url("../img/parents_photo.jpg");
+}
+
+header.masthead.university {
+    background-image: url("../img/university_photo.jpg");
+}
+
+header.masthead.policy {
+    background-image: url("../img/bg_policy.png");
+    background-size: cover;
+}
+
+header.masthead.terms {
+    background-image: url("../img/bg_terms.png");
+    background-size: cover;
+}
+
+header.masthead.policy .intro-text {
+    padding-top: 250px;
+    padding-bottom: 180px;
+}
+
+header.masthead.terms .intro-text {
+    padding-top: 250px;
+    padding-bottom: 180px;
+}
+
+header.masthead.terms .intro-text h1,
+header.masthead.terms .intro-text h3 {
+    color: #fff;
+}
+
+header.masthead.policy .intro-text h1,
+header.masthead.policy .intro-text h3 {
+    color: #fff;
+}
+
+header.masthead .intro-text {
+    padding-top: 450px;
+}
+
+header.masthead .intro-text .intro-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 25px 0px;
+}
+
+
+/* end header */
+
+
+/* article */
+
+article p {
+    font-size: 18px;
+}
+
+
+/* end article */
+
+
+/*========================== PARENTS PAGE =============================== */
+
+section.detail-parent-help-you {
+    margin-top: -100px;
+    padding: 180px 0px 80px 0px;
+    background: #FFF1E8;
+}
+
+section.detail-parent-help-you p {
+    font-size: 18px;
+}
+
+.text-orange {
+    color: #F34335;
+}
+
+section.detail-parent-register {
+    background-image: url("../img/bg_parent.png");
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+p.large {
+    font-size: 18px;
+}
+
+a.ik-card-link .card-body {
+    border-radius: 10px;
+    -webkit-transition: box-shadow 0.5s;
+    /* Safari */
+    transition: box-shadow 0.5s;
+    border: none!important;
+}
+
+a.ik-card-link .card-body p {
+    color: #333;
+}
+
+a.ik-card-link .card-body:hover {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none!important;
+}
+
+a.ik-card-link .card-body:hover p {
+    color: #333;
+    text-decoration: none!important;
+}
+
+ul.list-univ li img {
+    margin-bottom: 8px;
+}
+
+
+/*========================== END PARENTS PAGE =============================== */
+
+
+/*========================== STUDENT PAGE =================================== */
+
+section.student {
+    padding-bottom: 0px;
+    padding-top: 50px;
+}
+
+section.student .student-header-desc {
+    padding-top: 80px;
+}
+
+section.student.start-from-here {
+    background: #0B7279;
+}
+
+.rounded-10 {
+    border-radius: 10px;
+}
+
+.space-150 {
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+
+/*========================== END STUDENT PAGE =================================== */
+
+
+/*========================== UNIV PAGE =================================== */
+
+section.detail-university.text-hero {
+    padding: 50px 0px;
+}
+
+section.detail-university.work-with-us {
+    padding: 50px 0px;
+    background: #DFECF5;
+}
+
+section.detail-university.work-with-us h4 {
+    color: #0464B0;
+    margin-bottom: 50px;
+}
+
+section.detail-university.contact-us {
+    background-image: url("../img/bg_university.png");
+    background-size: cover;
+    padding: 120px 0px 100px 0;
+}
+
+section.detail-university.partner {
+    padding-bottom: 0px;
+}
+
+.partner ul li img {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+section.detail-university.find-out-more {
+    padding-top: 20px;
+}
+
+
+/*========================== END UNIV PAGE =================================== */
+
+
+/*========================== SCHOOL PAGE =================================== */
+
+header.masthead.school {
+    background-image: url("../img/school_photo.jpg");
+    background-position: top;
+}
+
+section.detail-school.text-hero {
+    padding: 50px 0px;
+}
+
+section.detail-school.rapor {
+    background: #D6FFED;
+}
+
+section.detail-school.rapor h4 {
+    color: #009688;
+}
+
+section.detail-school.partner {
+    padding-bottom: 0px;
+}
+
+section.detail-school.contact-us {
+    background-image: url("../img/bg_school.png");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0px 100px 0;
+}
+
+.ik-quote-card .card-footer {
+    border-top: none;
+    background-color: transparent;
+}
+
+section.detail-school.find-out-more {
+    padding-top: 0px;
+}
+
+
+/*========================== END SCHOOL PAGE =================================== */
+
+
+/*========================== PARTNERSHIP PAGE =================================== */
+
+header.masthead.partnership {
+    background-image: url("../img/photo_partnership.jpg");
+    background-position: middle;
+}
+
+section.detail-partnership.text-hero {
+    padding: 50px 0px;
+}
+
+section.detail-partnership.proof {
+    padding: 50px 0px;
+    background: #f5f5f5;
+}
+
+section.detail-partnership.contact-us {
+    background-image: url("../img/bg_partnership.png");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0px 100px 0;
+}
+
+.rounded-univ li img {
+    padding: 0px 12px 12px 12px;
+}
+
+.testimoni .card {
+    text-align: center;
+    border: none;
+    background: transparent;
+}
+
+.testimoni .card p {
+    color: #fff;
+}
+
+section.footer p {
+    color: #fff;
+}
+
+
+/*========================== END PARTNERSHIP PAGE =================================== */
+
+
+/*========================== CONTACT PAGE =================================== */
+
+section.contact {
+    padding: 140px 0px;
+}
+
+.header-hr {
+    margin-top: 0px;
+    width: 75px;
+    height: 8px;
+    background-color: #f44336;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.card.ik-contact-form {
+    border-radius: 12px!important;
+}
+
+.ik-contact-form h4 {
+    color: #f44336;
+}
+
+.ik-contact-form .form-row {
+    margin-bottom: 1rem;
+}
+
+.ik-contact-form .card-header,
+.ik-contact-form .card-footer {
+    background-color: transparent;
+    padding-top: 1.5rem;
+    border: none;
+}
+
+.ik-contact-list-wrapper {
+    padding: 50px 100px 0px 100px;
+}
+
+ul.ik-contact-list li {
+    list-style: none;
+}
+
+ul.ik-contact-list li span {
+    color: #673ab7;
+    float: left;
+}
+
+ul.ik-contact-list li p {
+    margin-left: 40px;
+    padding-top: 6px;
+    font-size: 1rem;
+    color: #616161;
+}
+
+
+/*========================== END CONTACT PAGE =================================== */
+
+.ik-btn-lang {
+    margin-left: 1rem;
+    border-radius: 24px;
+    padding: 5px 15px 5px 5px;
+    background: #fff;
+    border: 1px solid #D6D6D6;
+}
+
+.ik-btn-lang:hover {
+    background-color: #fff;
+}
+
+.ik-btn-lang:active {
+    background-color: #fff!important;
+}
+
+.ik-btn-lang.dropdown-toggle:after {}
+
+.ik-btn-lang-dropdown {
+    margin-left: 1rem;
+    border-radius: 0px 0px 24px 24px;
+    padding: 25px 15px 5px 5px;
+    background: #fff;
+    border: 1px solid #D6D6D6;
+    min-width: 74px;
+    top: 24px;
+    z-index: -1;
+}
+
+.ik-btn-lang-dropdown>.dropdown-item {
+    margin: 0px;
+    padding: 0px;
+    min-width: 50px!important;
+    width: 50px;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    padding: 0.5em 1em;
+}
+
+
+/*carousel */
+
+.carousel-inner .active.left {
+    left: -25%;
+}
+
+.carousel-inner .next {
+    left: 25%;
+}
+
+.carousel-inner .prev {
+    left: -25%;
+}
+
+.carousel-control {
+    width: 4%;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    margin-left: 15px;
+    background-image: none;
+}
+
+#testi .owl-carousel {}
+
+#testi .owl-item>div {
+    width: 120px;
+    margin: 60px 45px;
+    transition: all 400ms ease-out;
+}
+
+#testi .owl-item.center>div {
+    width: 180px;
+    margin: 30px 20px;
+}
+
+#testi .owl-item.center .testi-content {
+    opacity: 1;
+}
+
+#testi .owl-prev {
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    width: 120px;
+    height: 120px;
+    opacity: 0!important;
+    background: red;
+}
+
+#testi .owl-next {
+    position: absolute;
+    right: 40px;
+    top: 60px;
+    width: 120px;
+    height: 120px;
+    opacity: 0!important;
+    background: red;
+}
+
+.testi-content {
+    text-align: center;
+    color: #fff;
+    width: 280px;
+    opacity: 0;
+    margin-left: -50px;
+    transition: all 200ms ease-out;
+}
+
+.testi-content p {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#owl-school.owl-carousel .owl-item img {
+    display: inline-block;
+    width: inherit;
+}
+
+#news-slider9 .owl-item>div {
+    cursor: pointer;
+    margin: 22% 24%;
+    transition: margin 0.4s ease;
+}
+
+#news-slider9 .owl-item.center>div {
+    cursor: auto;
+    margin: 8% 12%;
+}
+
+#news-slider9 .owl-item:not(.center)>div:hover {
+    opacity: .75;
+}
+
+#news-slider9 .owl-prev {
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    width: 120px;
+    height: 120px;
+    opacity: 0!important;
+    background: red;
+}
+
+#news-slider9 .owl-next {
+    position: absolute;
+    right: 40px;
+    top: 60px;
+    width: 120px;
+    height: 120px;
+    opacity: 0!important;
+    background: red;
+}
+
+#news-slider9 .owl-item.center .testi-content {
+    opacity: 1;
+}
+
+
+/*==============================  STUDENT PROFILE PAGE =============================== */
+
+.mdi-30px {
+    font-size: 30px!important;
+}
+
+ul.ik-navbar-student-profile .nav-link {
+    color: #673bb7;
+    opacity: 1;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+}
+
+ul.ik-navbar-student-profile .nav-link:hover {
+    opacity: 0.7;
+}
+
+section.student-profile {
+    padding: 35px 0px 0px 0px;
+}
+
+section.header-student-profile {
+    margin-top: 112px;
+    background-image: url("../img/bg_profile.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.card.ik-student-card {
+    background: rgb(239, 64, 106);
+    background: linear-gradient(90deg, rgba(239, 64, 106, 1) 0%, rgba(250, 188, 45, 1) 100%);
+    border: 5px solid #fff;
+    box-sizing: border-box;
+}
+
+.card.ik-student-card .card-body {
+    border: none;
+    background: url("../img/bg_card_body.png") top left repeat #F4F4F4;
+}
+
+.card.ik-student-card .card-header {
+    border-bottom: 8px solid #fff;
+    height: 125px;
+    background-image: url("../img/bg_card_header.png"), url("../img/bg_card_header2.png");
+    background-position: top left, top right;
+    background-repeat: no-repeat;
+}
+
+
+}
+.card.ik-student-card .card-footer {
+    border: none;
+}
+ul.student-card-detail {
+    list-style: none;
+    width: 300px;
+    float: left;
+    padding-left: 24px;
+}
+img.student-card-ava {
+    margin-top: -65px;
+}
+ul.student-card-detail p {
+    margin-bottom: 6px;
+}
+.student-card-ava-wrapper {
+    width: 160px;
+    height: auto;
+    float: left;
+}
+.student-card-qr {
+    clear: both;
+}
+a.ik-btn-share {
+    width: 52px;
+    color: #673bb7;
+    display: inline-block;
+    height: 52px;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+}
+.card.ik-student-catalog {
+    border: none;
+}
+.card.ik-student-catalog label {
+    color: #616161;
+}
+.card.ik-student-catalog .card-header {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.card.ik-student-catalog .card-header h5 {}
+.card.ik-student-catalog .card-body {
+    padding-left: 82px;
+}
+.card.ik-student-catalog .icon-holder {
+    margin-right: 24px;
+    background: #fff;
+    padding: 6px;
+    float: left;
+}
+.form-control.form-purple-outline {
+    border: 1px solid #673bb7;
+    color: #673bb7;
+}
+input[type=text].ik-form-input-nilai {
+    width: 48px;
+}
+
+/*==============================  END SRUDENT PROFILE PAGE =============================== */
+
+/*==============================  RESPONSIVE  =============================== */
+@media (max-width: 576px) {
+    #news-slider9 .owl-item>div {
+        margin: 0%;
+    }
+    
+    #news-slider9 .owl-item.center>div {
+        cursor: auto;
+        margin: 15% 24% 16% 24%;
+    }
+}
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        border: none;
+    }
+    
+    #mainNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    #mainNav.navbar-shrink {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        transition: all 0.5s;
+        background-color: #fff;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+    }
+}
+@media (max-width: 1024px) {
+    .ik-illustration-1 {
+        right: -250px;
+        top: -140px;
+    }
+    
+    .ik-illustration-1 img {
+        width: 800px;
+        top: 80px;
+    }
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .xs-text-small {
+        font-size: 0.85rem;
+    }
+    
+    header.masthead .intro-text {
+        padding-top: 250px;
+    }
+    
+    header.masthead .intro-text .intro-heading {
+        padding: 15px 20px;
+        font-size: 1.35rem;
+        line-height: 130%;
+    }
+    
+    section.footer {
+        padding: 30px 0px 40px 0px;
+    }
+    
+    section.detail-page {
+        padding: 24px 0px;
+    }
+    
+    #mainNav.navbar-shrink {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .ik-login-btn {
+        margin-left: 0px;
+        padding: inherit;
+        background: transparent;
+    }
+    
+    #mainNav .navbar-nav.ik-login-btn .nav-item .nav-link {
+        color: #616161;
+    }
+    
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.5em 1em;
+    }
+    
+    section.header {
+        margin-top: 0px;
+    }
+    
+    section.header .intro-text {
+        text-align: center;
+    }
+    
+    section.header .intro-text h1 {
+        font-size: 2rem;
+    }
+    
+    section.header .intro-text h5 {
+        font-size: 1rem;
+    }
+    
+    section.header .ik-illustration-1 {
+        top: 0px;
+        right: 0px;
+    }
+    
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    
+    .navbar-toggler {
+        padding: .25rem 0rem!important;
+    }
+    
+    #mainNav .navbar-brand img {
+        width: 100px;
+    }
+    
+    .ik-btn-lang {
+        padding: 5px;
+        margin-left: 0px;
+    }
+    
+    .ik-btn-lang-dropdown {
+        width: 42px;
+        min-width: 42px;
+        margin-left: 0px;
+    }
+    
+    .ik-btn-lang-dropdown>.dropdown-item {
+        min-width: 30px!important;
+        width: 30px!important
+    }
+    
+    .ik-btn-lang.dropdown-toggle:after {
+        display: none;
+    }
+    
+    .intro-text-wrap {
+        margin-top: 25px;
+    }
+    
+    section.step {
+        padding: 350px 0px 35px 0px;
+    }
+    
+    .step .card .card-body {
+        width: 100%;
+        padding: 12px;
+        background: none;
+    }
+    
+    .step .card .card-body .row.first {
+        position: relative;
+        left: 0px;
+    }
+    
+    .step .card .card-body .row.third {
+        position: relative;
+        right: 0px;
+    }
+    
+    section.test {
+        padding: 35px 0;
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h5 {
+        font-size: 1rem;
+    }
+    
+    section.platform {
+        padding: 35px 0px;
+    }
+    
+    ul.list-univ li img {
+        max-width: 140px;
+    }
+    
+    section {
+        padding: 45px 0px;
+    }
+    
+    section.testimoni {
+        padding: 40px 0px;
+    }
+    
+    section.partner ul.list-univ li {}
+    
+    section.student .student-header-desc {
+        padding-top: 32px;
+    }
+    
+    section.detail-school.text-hero {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    
+    section.student {
+        padding-top: 32px;
+    }
+    
+    section.student h1 {
+        font-size: 2rem;
+    }
+    
+    section.student h5 {
+        font-size: 1.3rem;
+        line-height: 150%;
+    }
+    
+    .text-large {
+        font-size: 1rem;
+    }
+    
+    .text-small {
+        font-size: 0.9rem;
+    }
+    
+    section.detail-university.text-hero {
+        padding: 32px 0px 20px 0px;
+    }
+    
+    section.detail-university.work-with-us h4 {
+        font-size: 1.3rem;
+    }
+    
+    header.masthead.policy .intro-text,
+    header.masthead.terms .intro-text {
+        padding-top: 150px;
+        padding-bottom: 80px;
+    }
+    
+    header.masthead.policy .intro-text h3,
+    header.masthead.terms .intro-text h3 {
+        font-size: 1.125rem;
+    }
+}
+
+/*end media xs */
